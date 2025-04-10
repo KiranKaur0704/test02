@@ -1,0 +1,69 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU09\",\"version\":\"5.39\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY22SU09",
+            "path": "BaseThemes/CY22SU09.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"33af9a8503e5dd5d06c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.5714285714287,\"y\":160,\"z\":2,\"width\":561.4285714285714,\"height\":311.42857142857144}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Name\":\"Variation\",\"Property\":\"START_DT\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"TOTAL_REQUESTS\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"227.85714285714286D\"}}}},\"selector\":{\"metadata\":\"Sheet 1.START_DT.Variation.Date Hierarchy.Month\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"193.71428571428572D\"}}}},\"selector\":{\"metadata\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}}]}}}",
+          "filters": "[]",
+          "height": 311.42,
+          "width": 561.42,
+          "x": 718.57,
+          "y": 160.00,
+          "z": 2.00
+        },
+        {
+          "config": "{\"name\":\"6cfb7a4000a168644333\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.5714285714287,\"y\":0,\"z\":1,\"width\":561.4285714285714,\"height\":160}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"TOTAL REQUESTS\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 160.00,
+          "width": 561.42,
+          "x": 718.57,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"9f85826f749198d65b87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":718.5714285714287,\"y\":511.42857142857144,\"z\":3,\"width\":561.4285714285714,\"height\":208.57142857142858}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sheet 1.Window\"},{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Window\"},\"Name\":\"Sheet 1.Window\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"236.14285714285717D\"}}}},\"selector\":{\"metadata\":\"Sheet 1.Window\"}}]}}}",
+          "filters": "[]",
+          "height": 208.57,
+          "width": 561.42,
+          "x": 718.57,
+          "y": 511.42,
+          "z": 3.00
+        },
+        {
+          "config": "{\"name\":\"e2dd3934d99d9174ccde\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.613733905579398,\"y\":0,\"z\":0,\"width\":697.6824034334763,\"height\":719.656652360515}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Sheet 1.TAG\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"Sheet 1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Window\"},\"Name\":\"Sheet 1.TAG\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5},\"Name\":\"CountNonNull(Sheet 1.FE_REQUEST_ID)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"FE_REQUEST_ID\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(Sheet 1.FE_REQUEST_ID)\":{\"displayName\":\"Change Control\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 719.65,
+          "width": 697.68,
+          "x": 9.61,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
