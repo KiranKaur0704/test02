@@ -1,5 +1,4 @@
 name:fabric Pipeline Test
-
 on:
  push:
   branches:
